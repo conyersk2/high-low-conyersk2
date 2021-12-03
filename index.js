@@ -1,3 +1,14 @@
+/*
+CSCI 290
+High Low Game Assignment
+Kailey Conyers
+December 2 2021
+File contains a program that interacts with users over text, allowing them to
+guess a randomly generated number under 10. The program gives users hints in 
+the form of 'too high' or 'too low'. Supports multiple users.
+*/
+
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const twilio = require('twilio');
